@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; object-src 'none'; form-action 'self'">
+<title>Компоненти (службова сторінка)</title>
+<meta name="description" content="Службова сторінка для перевірки компонентів дизайн-системи. Не входить у бойовий сайт.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://ofmalien.github.io/turhouse-multipage-preview/dev/components/">
+<meta name="theme-color" content="#d8cbb8">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:site_name" content="Tur House">
+<meta property="og:title" content="Компоненти (службова сторінка)">
+<meta property="og:description" content="Службова сторінка для перевірки компонентів дизайн-системи. Не входить у бойовий сайт.">
+<meta property="og:url" content="https://ofmalien.github.io/turhouse-multipage-preview/dev/components/">
+<meta property="og:image" content="https://ofmalien.github.io/turhouse-multipage-preview/assets/img/static/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tur House: готельно-банний комплекс">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Компоненти (службова сторінка)">
+<meta name="twitter:description" content="Службова сторінка для перевірки компонентів дизайн-системи. Не входить у бойовий сайт.">
+<meta name="twitter:image" content="https://ofmalien.github.io/turhouse-multipage-preview/assets/img/static/og-default.jpg">
+
+<link rel="icon" href="/turhouse-multipage-preview/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/turhouse-multipage-preview/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/turhouse-multipage-preview/apple-touch-icon.png">
+<link rel="manifest" href="/turhouse-multipage-preview/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap"></noscript>
+<link rel="stylesheet" href="/turhouse-multipage-preview/assets/css/main.css?v=e62b5275a6">
+<script>document.documentElement.classList.add('js');</script>
+
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({"event":"page_context","page_type":"info","item_category":"general"});
+</script>
+
+
+</head>
+<body>
+
+
+<a class="skip-link" href="#main">Перейти до змісту</a>
+
+<header class="site-header on-dark" data-placement="header_nav">
+  <div class="site-header__inner">
+    <a class="brand" href="/turhouse-multipage-preview/" aria-label="Tur House, на головну">
+      <img src="/turhouse-multipage-preview/assets/img/static/logo.png" width="32" height="32" alt="">
+      <span>Tur House</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Головне меню">
+      <ul>
+        <li><a href="/turhouse-multipage-preview/">Головна</a></li>
+        <li><a href="/turhouse-multipage-preview/nomery/">Номери</a></li>
+        <li><a href="/turhouse-multipage-preview/kotedzhi/">Котеджі</a></li>
+        <li><a href="/turhouse-multipage-preview/barn-house/">Барн-хаус</a></li>
+        <li><a href="/turhouse-multipage-preview/banya-ta-spa/">Баня та спа</a></li>
+        <li><a href="/turhouse-multipage-preview/kafe/">Кафе</a></li>
+        <li><a href="/turhouse-multipage-preview/okolitsi/">Околиці</a></li>
+        <li><a href="/turhouse-multipage-preview/yak-distatysya/">Як доїхати</a></li>
+        <li><a href="/turhouse-multipage-preview/kontakty/">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="icon-btn" href="https://www.instagram.com/tur_house_/" target="_blank" rel="noopener" aria-label="Instagram @tur_house_"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <a class="btn btn-primary btn-compact" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener">Забронювати</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Відкрити меню"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+
+<div class="nav-drawer on-dark" id="nav-drawer" role="dialog" aria-modal="true" aria-label="Меню сайту" data-placement="mobile_drawer" inert>
+  <div class="drawer-head">
+    <span class="brand">
+      <img src="/turhouse-multipage-preview/assets/img/static/logo.png" width="32" height="32" alt="">
+      <span>Tur House</span>
+    </span>
+    <button type="button" class="drawer-close" aria-label="Закрити меню"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <nav class="drawer-links" aria-label="Розділи сайту">
+    <a href="/turhouse-multipage-preview/">Головна</a>
+    <a href="/turhouse-multipage-preview/nomery/">Номери</a>
+    <a href="/turhouse-multipage-preview/kotedzhi/">Котеджі</a>
+    <a href="/turhouse-multipage-preview/barn-house/">Барн-хаус</a>
+    <a href="/turhouse-multipage-preview/banya-ta-spa/">Баня та спа</a>
+    <a href="/turhouse-multipage-preview/kafe/">Кафе</a>
+    <a href="/turhouse-multipage-preview/okolitsi/">Околиці</a>
+    <a href="/turhouse-multipage-preview/yak-distatysya/">Як доїхати</a>
+    <a href="/turhouse-multipage-preview/kontakty/">Контакти</a>
+  </nav>
+  <div class="drawer-footer">
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener">Забронювати онлайн</a>
+    <a class="btn" href="tel:+380961275553" aria-label="Зателефонувати: +38 096 127-55-53"><span class="nowrap">+38 096 127-55-53</span></a>
+  </div>
+</div>
+
+<main id="main" tabindex="-1">
+<style>
+  .dev-block { margin-top: 48px; }
+  .dev-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 20px; }
+  .dev-swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 20px; }
+  .dev-swatch { padding: 14px; border: 1px solid var(--line); font-size: var(--text-small); }
+  .dev-swatch b { display: block; margin-bottom: 2px; }
+  .dev-dark { padding: 28px; background: var(--color-midnight-roast); }
+  .dev-note { margin-top: 12px; font-size: var(--text-small); color: var(--text-muted); }
+</style>
+<div class="wrap section">
+  <p class="caption">Службова сторінка, не для гостей</p>
+  <h1>Компоненти</h1>
+  <p class="lede" style="margin-top:16px">Сторінка для перевірки дизайн-системи Amrit Palace. У бойову збірку не потрапляє.</p>
+
+  <section class="dev-block">
+    <h2>Типографіка</h2>
+    <p class="section-heading" style="margin-top:24px">Заголовок розділу</p>
+    <h3 style="margin-top:24px">Заголовок третього рівня</h3>
+    <h4 style="margin-top:16px">Заголовок четвертого рівня</h4>
+    <p class="lede" style="margin-top:16px">Вступний абзац (lede): довший текст, щоб було видно міжрядковий інтервал і ширину рядка. Заміський відпочинок без поспіху.</p>
+    <p style="margin-top:12px">Основний текст 16px. Посилання всередині тексту виглядає так: <a href="/turhouse-multipage-preview/"><u>на головну</u></a>. Телефон: <span class="nowrap">+38 096 127-55-53</span>.</p>
+    <p class="caption" style="margin-top:12px">Підпис (caption) 14px</p>
+  </section>
+
+  <section class="dev-block">
+    <h2>Кольори</h2>
+    <div class="dev-swatches">
+      <div class="dev-swatch" style="background:var(--color-parchment);color:var(--color-onyx-warm)"><b>parchment</b>#d8cbb8, фон</div>
+      <div class="dev-swatch" style="background:var(--color-parchment-light);color:var(--color-onyx-warm)"><b>parchment-light</b>#e4dacf, картки</div>
+      <div class="dev-swatch" style="background:var(--color-espresso);color:var(--color-parchment)"><b>espresso</b>#38342e, темні блоки</div>
+      <div class="dev-swatch" style="background:var(--color-onyx-warm);color:var(--color-parchment)"><b>onyx</b>#1f1e1c, текст</div>
+      <div class="dev-swatch" style="background:var(--color-midnight-roast);color:var(--color-linen)"><b>midnight-roast</b>#1a1816, шапка</div>
+      <div class="dev-swatch" style="background:var(--color-saffron-glow);color:var(--color-onyx-warm)"><b>saffron-glow</b>#c88742, кнопки</div>
+      <div class="dev-swatch" style="background:var(--color-saffron-bright);color:var(--color-onyx-warm)"><b>saffron-bright</b>#d49653, ховер</div>
+      <div class="dev-swatch" style="background:var(--color-parchment);color:var(--color-walnut)"><b>walnut</b>#4e483e, другорядний текст</div>
+    </div>
+    <p class="dev-note">Пари кольорів перевіряє <code>npm run check:contrast</code>. warm-stone (#b6ab9c) лише для ліній, шафран лише фон кнопок і декор.</p>
+  </section>
+
+  <section class="dev-block">
+    <h2>Кнопки</h2>
+    <div class="dev-row">
+      <a class="btn btn-primary" href="#">Головна кнопка</a>
+      <a class="btn" href="#">Контурна кнопка</a>
+      <a class="btn btn-primary btn-compact" href="#">Компактна</a>
+      <a class="icon-btn" style="color:var(--color-onyx-warm);border-color:var(--color-onyx-warm)" href="#" aria-label="Приклад іконки"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+    </div>
+    <div class="dev-dark on-dark" style="margin-top:20px">
+      <p class="caption">На темному фоні</p>
+      <div class="dev-row">
+        <a class="btn btn-primary" href="#">Головна кнопка</a>
+        <a class="btn" href="#">Контурна кнопка</a>
+        <a class="icon-btn" href="#" aria-label="Приклад іконки"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="dev-block">
+    <h2>Акція</h2>
+  </section>
+</div>
+
+<section class="promo-banner" id="promo" aria-labelledby="promo-title" data-placement="promo_section_weekend">
+  <div class="wrap">
+    <div class="promo-banner__box">
+      <div class="promo-banner__poster">
+        <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-480.avif 480w, /turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-800.avif 800w" sizes="(min-width: 900px) 400px, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-480.webp 480w, /turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-800.webp 800w" sizes="(min-width: 900px) 400px, 100vw"><img src="/turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-480.jpeg" alt="Афіша «Знижка 20% на всі варіанти проживання у будні дні»: камін, крісло-мішок і плед у Tur House" decoding="async" loading="lazy" class="media" width="800" height="1200" srcset="/turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-480.jpeg 480w, /turhouse-multipage-preview/assets/img/promo-budni-20-mOCrs9m90y-800.jpeg 800w" sizes="(min-width: 900px) 400px, 100vw"></picture>
+      </div>
+      <div class="promo-banner__content">
+        <p class="promo-badge">Спеціальна пропозиція · Будні дні</p>
+        <h2 id="promo-title" class="promo-banner__title">−20% на проживання у будні в Tur House</h2>
+        <p class="lede">У Tur House діє знижка 20% на всі варіанти проживання у будні. Це не про втечу від життя. Це про кілька днів, щоб відновити сили й повернутися до нього трохи спокійнішими.</p>
+
+        <ul class="promo-terms">
+          <li>Знижка 20% на всі варіанти проживання</li>
+          <li>Діє у будні дні</li>
+          <li>Проживання від 2000 грн на двох</li>
+          <li>Щоб відновитись, виспатись і просто відпочити</li>
+        </ul>
+
+        <table class="promo-prices">
+          <caption class="visually-hidden">Ціни за добу зі знижкою</caption>
+          <thead>
+            <tr><th scope="col">Варіант</th><th scope="col">Ціна за добу</th></tr>
+          </thead>
+          <tbody>
+            <tr class="promo-price">
+              <th scope="row" class="promo-price__who">Стандарт</th>
+              <td class="promo-price__amounts">
+                <span class="visually-hidden">Звичайна ціна:</span> <s>2 500&nbsp;грн</s>
+                <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 000&nbsp;грн</strong>
+              </td>
+            </tr>
+            <tr class="promo-price">
+              <th scope="row" class="promo-price__who">Напівлюкс</th>
+              <td class="promo-price__amounts">
+                <span class="visually-hidden">Звичайна ціна:</span> <s>2 800&nbsp;грн</s>
+                <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 240&nbsp;грн</strong>
+              </td>
+            </tr>
+            <tr class="promo-price">
+              <th scope="row" class="promo-price__who">Люкс</th>
+              <td class="promo-price__amounts">
+                <span class="visually-hidden">Звичайна ціна:</span> <s>3 000&nbsp;грн</s>
+                <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 400&nbsp;грн</strong>
+              </td>
+            </tr>
+            <tr class="promo-price">
+              <th scope="row" class="promo-price__who">Котедж</th>
+              <td class="promo-price__amounts">
+                <span class="visually-hidden">Звичайна ціна:</span> <s>6 000&nbsp;грн</s>
+                <span class="visually-hidden">Ціна зі знижкою:</span> <strong>4 800&nbsp;грн</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="promo-banner__note">Ціни за добу. Напишіть нам, і ми підберемо дати та варіант проживання.</p>
+
+        <div class="btn-row">
+          <a class="btn btn-primary" href="https://ig.me/m/tur_house_" target="_blank" rel="noopener">Забронювати зі знижкою</a>
+          <a class="btn" href="tel:+380961275553" aria-label="Зателефонувати: +38 096 127-55-53">Зателефонувати</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="dev-row">
+    <button type="button" class="btn" onclick="window.thPromoOpen && window.thPromoOpen()">Показати вікно акції</button>
+  </div>
+
+  <section class="dev-block">
+    <h2>Карточки об'єктів</h2>
+    <div class="cards-grid" data-placement="formats_section">
+      <article class="card-object" id="sample-room">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-480.avif 480w, /turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-480.webp 480w, /turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-480.jpeg" alt="Спальня в номері Tur House: дерев'яна стіна, двоспальне ліжко, підвісна лампа" decoding="async" loading="lazy" width="800" height="1200" srcset="/turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-480.jpeg 480w, /turhouse-multipage-preview/assets/img/room-wood-wall-WFElL4N7rY-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Стандарт</h3>
+    <p class="card-object__meta">2 гості &middot; 2 номери цього типу</p>
+    <p class="card-object__desc">Приклад карточки номера з фото, звичайною ціною і ціною зі знижкою.</p>
+    <ul class="feature-list">
+      <li>Starlink на території</li>
+      <li>Басейн включено</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>2 500&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 000&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Стандарт"
+       data-item-name="Стандарт" data-item-category="rooms" data-value="2000">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="sample-cottage">
+  <div class="card-object__media">
+    <div class="photo-placeholder" aria-hidden="true"><span>?</span></div>
+  </div>
+  <div class="card-object__body">
+    <h3>Котедж на 4 гості</h3>
+    <p class="card-object__meta">до 4 гостей &middot; 2 котеджі цього типу</p>
+    <p class="card-object__desc">Приклад карточки без фото: замість кадру плашка.</p>
+    <ul class="feature-list">
+      <li>Кухня</li>
+      <li>Зона BBQ</li>
+      <li>Власна тераса</li>
+      <li>Мангал</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>6 000&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>4 800&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Котедж на 4 гості"
+       data-item-name="Котедж на 4 гості" data-item-category="cottages" data-value="4800">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="sample-barn">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.avif 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.avif 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.webp 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.webp 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.jpeg" alt="Барн-хаус Tur House: фасад із панорамним склінням і газон" decoding="async" loading="lazy" width="733" height="1280" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.jpeg 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.jpeg 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Барн-хаус</h3>
+    <p class="card-object__meta">до 8 гостей</p>
+    <p class="card-object__desc">Приклад карточки з тарифом.</p>
+    <ul class="feature-list">
+      <li>Зона BBQ</li>
+      <li>Басейн включено</li>
+    </ul>
+    <div class="card-object__price">
+      <ul class="price-list">
+        <li><span>до 8 гостей</span> <strong>11 000&nbsp;грн / доба</strong></li>
+      </ul>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Барн-хаус"
+       data-item-name="Барн-хаус" data-item-category="barn">Забронювати</a>
+  </div>
+</article>
+
+    </div>
+  </section>
+
+  <section class="dev-block" style="padding-bottom:var(--section-gap)">
+    <h2>Реальні дані</h2>
+    <p class="dev-note">Номери, котеджі й Барн-хаус із файлів rooms.json, cottages.json, barn.json.</p>
+    <div class="cards-grid" data-placement="formats_section">
+      <article class="card-object" id="standard">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-480.avif 480w, /turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-480.webp 480w, /turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-480.jpeg" alt="Номер Tur House зі світлим покривалом і коричневим узголів'ям" decoding="async" loading="lazy" width="800" height="1200" srcset="/turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-480.jpeg 480w, /turhouse-multipage-preview/assets/img/room-white-brown-UGiM6qulut-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Стандарт</h3>
+    <p class="card-object__meta">2 гості</p>
+    <ul class="feature-list">
+      <li>19 м²</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>2 500&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 000&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Стандарт"
+       data-item-name="Стандарт" data-item-category="rooms" data-value="2000">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="napivlyuks">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-480.avif 480w, /turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-480.webp 480w, /turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-480.jpeg" alt="Номер Tur House з блакитним покривалом і візерунчастими шпалерами" decoding="async" loading="lazy" width="800" height="1200" srcset="/turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-480.jpeg 480w, /turhouse-multipage-preview/assets/img/room-blue-3uQ15G6ZKP-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Напівлюкс</h3>
+    <p class="card-object__meta">2 гості</p>
+    <ul class="feature-list">
+      <li>22 м²</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>2 800&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 240&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Напівлюкс"
+       data-item-name="Напівлюкс" data-item-category="rooms" data-value="2240">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="lyuks">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-480.avif 480w, /turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-480.webp 480w, /turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-480.jpeg" alt="Номер Tur House з панорамним вікном і бордовим покривалом" decoding="async" loading="lazy" width="800" height="1066" srcset="/turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-480.jpeg 480w, /turhouse-multipage-preview/assets/img/room-panorama-window-YQxVsnd7gf-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Люкс</h3>
+    <p class="card-object__meta">2 гості</p>
+    <ul class="feature-list">
+      <li>25 м²</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>3 000&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 400&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Люкс"
+       data-item-name="Люкс" data-item-category="rooms" data-value="2400">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="cottage-4">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-480.avif 480w, /turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-480.webp 480w, /turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-480.jpeg" alt="Котедж Tur House з помаранчевим фасадом і садом" decoding="async" loading="lazy" width="800" height="1066" srcset="/turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-480.jpeg 480w, /turhouse-multipage-preview/assets/img/cottage-orange-edRANoF22P-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Котедж на 4 гості</h3>
+    <p class="card-object__meta">до 4 гостей</p>
+    <ul class="feature-list">
+    </ul>
+    <div class="card-object__price">
+      <p class="price price--promo">
+        <span class="visually-hidden">Звичайна ціна:</span> <s>6 000&nbsp;грн</s>
+        <span class="visually-hidden">Ціна зі знижкою:</span> <strong>4 800&nbsp;грн</strong>
+        <span class="price__unit">/ доба</span>
+      </p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Котедж на 4 гості"
+       data-item-name="Котедж на 4 гості" data-item-category="cottages" data-value="4800">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="cottage-6">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-480.avif 480w, /turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-800.avif 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-480.webp 480w, /turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-800.webp 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-480.jpeg" alt="Лаванда на території Tur House, вдалині котеджі" decoding="async" loading="lazy" width="800" height="1145" srcset="/turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-480.jpeg 480w, /turhouse-multipage-preview/assets/img/cottage-lavender-mNbFPI8oHr-800.jpeg 800w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Котедж на 6 гостей</h3>
+    <p class="card-object__meta">до 6 гостей</p>
+    <ul class="feature-list">
+      <li>Розкладний диван на 2 місця</li>
+    </ul>
+    <div class="card-object__price">
+      <p class="price"><strong>7 000&nbsp;грн</strong> <span class="price__unit">/ доба</span></p>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Котедж на 6 гостей"
+       data-item-name="Котедж на 6 гостей" data-item-category="cottages" data-value="7000">Забронювати</a>
+  </div>
+</article>
+
+      <article class="card-object" id="barn-house">
+  <div class="card-object__media">
+    <picture><source type="image/avif" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.avif 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.avif 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><source type="image/webp" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.webp 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.webp 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"><img src="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.jpeg" alt="Барн-хаус Tur House: фасад із панорамним склінням і газон" decoding="async" loading="lazy" width="733" height="1280" srcset="/turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-480.jpeg 480w, /turhouse-multipage-preview/assets/img/barn-01-fasad-lUUThgRLof-733.jpeg 733w" sizes="(min-width: 1000px) 380px, (min-width: 600px) 50vw, 100vw"></picture>
+  </div>
+  <div class="card-object__body">
+    <h3>Барн-хаус</h3>
+    <p class="card-object__meta">до 8 або до 12 гостей</p>
+    <ul class="feature-list">
+      <li>Окремий будинок</li>
+      <li>Зона BBQ</li>
+      <li>Басейн включено</li>
+      <li>Starlink на території</li>
+      <li>Парковка</li>
+    </ul>
+    <div class="card-object__price">
+      <ul class="price-list">
+        <li><span>до 8 гостей</span> <strong>11 000&nbsp;грн / доба</strong></li>
+        <li><span>до 12 гостей</span> <strong>13 000&nbsp;грн / доба</strong></li>
+      </ul>
+    </div>
+
+    <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener"
+       aria-label="Забронювати: Барн-хаус"
+       data-item-name="Барн-хаус" data-item-category="barn">Забронювати</a>
+  </div>
+</article>
+
+    </div>
+  </section>
+</div>
+
+</main>
+<footer class="site-footer on-dark" data-placement="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <p class="footer-brand">Tur House</p>
+        <p class="footer-addr">Заміський готельний комплекс, вул. Лугова, 24, с. Беремицьке, Чернігівська обл.</p>
+      </div>
+
+      <nav class="footer-col" aria-labelledby="footer-nav-title">
+        <p class="caption" id="footer-nav-title">Розділи</p>
+        <ul>
+          <li><a href="/turhouse-multipage-preview/">Головна</a></li>
+          <li><a href="/turhouse-multipage-preview/nomery/">Номери</a></li>
+          <li><a href="/turhouse-multipage-preview/kotedzhi/">Котеджі</a></li>
+          <li><a href="/turhouse-multipage-preview/barn-house/">Барн-хаус</a></li>
+          <li><a href="/turhouse-multipage-preview/banya-ta-spa/">Баня та спа</a></li>
+          <li><a href="/turhouse-multipage-preview/kafe/">Кафе</a></li>
+          <li><a href="/turhouse-multipage-preview/okolitsi/">Околиці</a></li>
+          <li><a href="/turhouse-multipage-preview/yak-distatysya/">Як доїхати</a></li>
+          <li><a href="/turhouse-multipage-preview/kontakty/">Контакти</a></li>
+          <li><a href="/turhouse-multipage-preview/pryvatnist/">Політика конфіденційності</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <p class="caption">Зв'язок</p>
+        <ul>
+          <li><a href="tel:+380961275553" class="nowrap">+38 096 127-55-53</a></li>
+          <li><a href="https://www.instagram.com/tur_house_/" target="_blank" rel="noopener">Instagram @tur_house_</a></li>
+          <li><a href="https://maps.google.com/?cid=2762823765818742466" target="_blank" rel="noopener">Google Карти</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">Tur House &middot; с. Беремицьке, Чернігівщина</p>
+  </div>
+</footer>
+
+
+<div class="sticky-cta" data-placement="sticky_mobile_cta">
+  <a class="btn btn-primary" href="https://go.bookmenow.pro/t/turhouse" target="_blank" rel="noopener">Забронювати зараз</a>
+</div>
+
+
+<div class="promo-modal" id="promo-modal" role="dialog" aria-modal="true" aria-labelledby="promo-modal-title" data-placement="promo_modal_weekend" data-session-key="th_budni_20_seen" hidden>
+  <div class="promo-modal__dialog" tabindex="-1">
+    <button type="button" class="promo-modal__close" aria-label="Закрити"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <p class="promo-badge">Спеціальна пропозиція · Будні дні</p>
+    <p class="promo-modal__title" id="promo-modal-title">−20% у будні в Tur House</p>
+    <p class="promo-modal__text">Знижка на всі варіанти проживання у будні дні. Щоб відновитись, виспатись і просто відпочити.</p>
+    <ul class="promo-rows">
+      <li>
+        <span>Стандарт</span>
+        <span class="promo-rows__amounts">
+          <span class="visually-hidden">Звичайна ціна:</span> <s>2 500&nbsp;грн</s>
+          <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 000&nbsp;грн</strong>
+        </span>
+      </li>
+      <li>
+        <span>Напівлюкс</span>
+        <span class="promo-rows__amounts">
+          <span class="visually-hidden">Звичайна ціна:</span> <s>2 800&nbsp;грн</s>
+          <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 240&nbsp;грн</strong>
+        </span>
+      </li>
+      <li>
+        <span>Люкс</span>
+        <span class="promo-rows__amounts">
+          <span class="visually-hidden">Звичайна ціна:</span> <s>3 000&nbsp;грн</s>
+          <span class="visually-hidden">Ціна зі знижкою:</span> <strong>2 400&nbsp;грн</strong>
+        </span>
+      </li>
+      <li>
+        <span>Котедж</span>
+        <span class="promo-rows__amounts">
+          <span class="visually-hidden">Звичайна ціна:</span> <s>6 000&nbsp;грн</s>
+          <span class="visually-hidden">Ціна зі знижкою:</span> <strong>4 800&nbsp;грн</strong>
+        </span>
+      </li>
+    </ul>
+    <a class="btn btn-primary" href="https://ig.me/m/tur_house_" target="_blank" rel="noopener">Забронювати зі знижкою</a>
+    <a class="promo-modal__more" href="#promo">Деталі акції</a>
+  </div>
+</div>
+<script src="/turhouse-multipage-preview/assets/js/promo.js" defer></script>
+
+<script src="/turhouse-multipage-preview/assets/js/app.js" defer></script>
+<script src="/turhouse-multipage-preview/assets/js/tracking.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Tur House",
+  "short_name": "Tur House",
+  "description": "Готельно-банний комплекс",
+  "lang": "uk",
+  "start_url": "/turhouse-multipage-preview/",
+  "scope": "/turhouse-multipage-preview/",
+  "display": "standalone",
+  "theme_color": "#d8cbb8",
+  "background_color": "#d8cbb8",
+  "icons": [
+    { "src": "/turhouse-multipage-preview/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/turhouse-multipage-preview/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
